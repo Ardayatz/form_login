@@ -220,95 +220,43 @@ i:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.skill-html {
-    position: absolute;
+.skill-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+
+.skill {
+    width: 233px;
     margin-left: 80px;
-    margin-top: 150px;
+    margin-top: 30px;
+    height: 170px;
     background: white;
-    width: 20vw;
-    text-align: center;
-    color: black;
     border-radius: 5px;
-    padding: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
-.skill-html img {
-    width: 40px;
-    height: 40px;
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.skill-css {
-    position: absolute;
-    margin-left: 30vw;
-    margin-top: 150px;
-    background: white;
-    width: 20vw;
-    text-align: center;
+.skill .img {
+    width: 50px;
+    height: 50px;
+}
+
+.items h2 {
     color: black;
-    border-radius: 5px;
-    padding: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} 
 
-.skill-css img {
-    width: 40px;
-    height: 40px;
-}
-
-.skill-js {
-    position: absolute;
-    margin-left: 54vw;
-    margin-top: 150px;
-    background: white;
-    width: 20vw;
-    text-align: center;
-    color: black;
-    border-radius: 5px;
-    padding: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.skill-js img {
-    width: 40px;
-    height: 40px;
-}
-
-.skill-py {
-    position: absolute;
-    margin-left: 80px;
-    margin-top: 360px;
-    background: white;
-    width: 20vw;
-    text-align: center;
-    color: black;
-    border-radius: 5px;
-    padding: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.skill-py img {
-    width: 40px;
-    height: 40px;
-}
-
-.skill-sql {
-    position: absolute;
-    margin-left: 30vw;
-    margin-top: 360px;
-    background: white;
-    width: 20vw;
-    text-align: center;
-    color: black;
-    border-radius: 5px;
-    padding: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.skill-sql img {
-    width: 40px;
-    height: 40px;
-}
 
 /* CONTENT 3 */
 
@@ -335,120 +283,62 @@ i:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.project-1 {
-    position: absolute;
+.project-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 130px;
+}
+
+.project {
+    width: 233px;
     margin-left: 80px;
-    margin-top: 150px;
+    margin-top: 30px;
+    height: 300px;
     background: white;
-    width: 20vw;
-    text-align: center;
-    color: black;
     border-radius: 5px;
-    padding: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.project-image  img{
-    width: 40px;
-    height: 40px;
+.project-item {
+    margin: 10px 20px;
 }
 
-.project-1 a {
+.p-item1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.project-item .img {
+    width: 50px;
+    height: 50px;
+}
+
+.project-item a {
+    color: black;
     font-size: 25px;
-    color: black;
-    text-decoration: none;
-}
-
-.project-1 a:hover {
-    color: gray;
-    transition: 0.3s;
-}
-
-.project-2 {
-    position: absolute;
-    margin-left: 30vw;
-    margin-top: 150px;
-    background: white;
-    width: 20vw;
     text-align: center;
-    color: black;
-    border-radius: 5px;
-    padding: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.project-2 a {
-    font-size: 15px;
-    color: black;
-    text-decoration: none;
-}
-
-.project-2 a:hover {
+.project-item a:hover {
     color: gray;
     transition: 0.3s;
 }
 
-.project-2 p {
-    font-size: 14px;
-}
-
-.project-3 {
-    position: absolute;
-    margin-left: 54vw;
-    margin-top: 150px;
-    background: white;
-    width: 20vw;
+.project-item p {
+    color :black;
     text-align: center;
-    color: black;
-    border-radius: 5px;
-    padding: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.project-3 a {
-    font-size: 16px;
-    color: black;
-    text-decoration: none;
-}
-
-.project-3 a:hover {
-    color: gray;
-    transition: 0.3s;
-}   
-
-.project-3 p {
-    font-size: 14px;
-    margin-top: 2px;
-}   
-
-.project-4 {
-    position: absolute;
-    margin-left: 80px;
-    margin-top: 510px;
-    background: white;
-    width: 20vw;
-    text-align: center;
-    color: black;
-    border-radius: 5px;
-    padding: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.project-4 a {
-    font-size: 16px;
-    color: black;
-    text-decoration: none;
-}
-
-.project-4 a:hover {
-    color: gray;
-    transition: 0.3s;
-}
-
-.project-4 p {
     font-size: 14px;
     margin-top: 2px;
 }
+
 
 /* CONTENT 4 */
 
@@ -462,7 +352,7 @@ i:hover {
     color: white;
 }
 
-.about .about-header {
+.about-header {
     position : absolute;
     margin-left: 80px;
     margin-top: 50px;
@@ -474,7 +364,7 @@ i:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.about .level {
+.content-4 .level {
     position: absolute;
     margin-left: 380px;
     margin-top: 160px;
@@ -535,29 +425,43 @@ i:hover {
 }   
 
 .contact-list {
-    position: absolute;
-    margin-left: 80px;
-    margin-top: 150px;
-    width: 67.5vw;
-    text-align: center;
-    color: black;
-    border-radius: 5px;
-    padding: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}   
-
-.contact-icon i {
-    margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 150px;
+  margin-left: 80px;
+  width: 67.5vw;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+              0 6px 20px rgba(0, 0, 0, 0.19);
+  color: black;
 }
 
-.contact-icon a {
-    font-size: 30px;
-    color: black;
-}   
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+.contact-item:hover {
+  color: gray;
+}
+
+.contact-item i {
+  font-size: 25px;
+}
+
+
 
 
 /* MEDIA QUERIS */
-/* @media screen and (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
     .sidebar {
         min-width: 210px;
     }   
@@ -578,6 +482,15 @@ i:hover {
         color: gray;
         padding: 10px;
     }
+
+     /* .contact-list { 
+        /* width: 85%; */
+        /* margin-left: 80px; */
+        /* font-size: 20p; */
+    /* } */
+
+
+
 }
 
 @media screen and (max-width: 940px) {
@@ -598,6 +511,11 @@ i:hover {
         font-size: 60px;
         text-align: center;
     }
+
+    .contact-list {
+        width: 85%;
+    }
+   
 }
 
 @media screen and (max-width: 768px) {
@@ -618,6 +536,25 @@ i:hover {
         font-size: 50px;
         text-align: center;
     }
+
+    .content-4 .level {
+        width: 30vw;
+    }
+
+    .contact-list {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .contact-list i {
+        font-size: 40px;
+        margin-left : 160px;
+    }
+
+    .contact-list span {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 536px) {
@@ -642,4 +579,4 @@ i:hover {
 
     
 
-} */
+}
